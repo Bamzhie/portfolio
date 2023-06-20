@@ -1,0 +1,31 @@
+.welcome-section p {
+  font-size: 2.5rem;
+  font-weight: 200;
+  font-style: italic;
+  color: #be3144;
+  text-align: center;
+}
+
+.header_primary {
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .header_primary {
+    font-size: 4.5rem;
+  }
+}
+
+.home_hero {
+  height: 100vh;
+  min-height: 80rem;
+  max-height: 120rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .home_hero {
+    height: unset;
+    min-height: unset;
+  }
+}
