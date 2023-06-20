@@ -10,25 +10,19 @@ const Header = () => {
     >
       <div>
         <div className="flex flex-col justify-center items-center welcome-section h-screen w-full z-50">
-          <article className="">
+          <section className="home-hero__content">
             <div>
               <h1 className=" text-white heading-primary ">
                 HELLO, MY NAME IS SHEU AHMAD{" "}
               </h1>
               <p className="text-primary">I am A full-stack developer</p>
             </div>
-            <div>
-              <Link
-                to="#projects"
-                smooth
-                className="items-center justify-center flex mt-4"
-              >
-                <button className="btn btn--bg bg-green-800 text-white">
-                  Projects
-                </button>
+            <div className="home-hero__cta">
+              <Link to="#projects" smooth>
+                <a className="btn btn--bg bg-green-800 text-white">Projects</a>
               </Link>
             </div>
-          </article>
+          </section>
         </div>
       </div>
     </div>

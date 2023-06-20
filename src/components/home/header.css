@@ -1,14 +1,3 @@
-.header_primary {
-  letter-spacing: 3px;
-  text-align: center;
-}
-
-@media only screen and (max-width: 37.5em) {
-  .header_primary {
-    font-size: 4.5rem;
-  }
-}
-
 .home-hero {
   color: #fff;
 
@@ -25,14 +14,14 @@
   }
 }
 .heading-primary {
-  font-size: 6rem;
+  font-size: 4rem;
   text-transform: uppercase;
   letter-spacing: 3px;
   text-align: center;
 }
 @media only screen and (max-width: 37.5em) {
   .heading-primary {
-    font-size: 4.5rem;
+    font-size: 2.5rem;
   }
 }
 .text-primary {
@@ -51,9 +40,9 @@
   background: #fff;
   color: #333;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1.2px;
   display: inline-block;
-  font-weight: 700;
+  font-weight: 400;
   border-radius: 5px;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
   transition: transform 0.3s;
@@ -62,6 +51,26 @@
   transform: translateY(-3px);
 }
 .btn--bg {
-  padding: 1.5rem 8rem;
+  padding: 1rem 4rem;
   font-size: 2rem;
+}
+.home-hero__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90rem;
+  width: 92%;
+}
+@media only screen and (max-width: 37.5em) {
+  .home-hero__content {
+    padding: 19rem 0 13rem 0;
+    margin: auto;
+    position: static;
+    transform: translate(0, 0);
+  }
+}
+.home-hero__cta {
+  margin-top: 5rem;
+  text-align: center;
 }
