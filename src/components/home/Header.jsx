@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div
       id="home"
-      className=" home-hero bg-center bg-cover bg-bg_image bg-no-repeat "
+      className=" home-hero bg-center bg-cover bg-green-950 bg-no-repeat "
     >
       <div>
         <div className="flex flex-col justify-center items-center welcome-section h-screen w-full z-50">
