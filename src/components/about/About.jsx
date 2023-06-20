@@ -22,18 +22,18 @@ const About = () => {
           <h1>ABOUT ME</h1>
         </div>
         <div className="flex items-center justify-center">
-          <div className="w-10 rounded-full mt-6 mb-4 h-1 bg-white"></div>
+          <div className="w-10 rounded-full mt-6 mb-4 h-1 bg-black"></div>
         </div>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
           eligendi repellendus iure sed deserunt officiis doloremque dolorem
           ullam dolor ipsum!
         </p>
-        <div>
-          <div className="flex flex-col xl:flex-row xl:justify-center md:grid-cols-2 md:p-3 md:items-center sm:flex-col">
-            <div className="mt-8 max-w-4xl md:max-w-xl md:text-base">
-              <h1 className="text-xl mb-6">Get to know me!</h1>
-              <p>
+        <div className="mt-24">
+          <div className="flex gap-40">
+            <div className="grid justify-center max-w-md">
+              <h1 className="about__content-title">Get to know me!</h1>
+              <p className="md:text-left">
                 Hey! it&#39;s Ahmad Sheu and i&#39;m a Full-stack Developer
                 located in Ilorin, Nigeria. I&#39;ve built many stunning looking
                 and fully functional apps and websites. I&#39;m a tech junkie
@@ -54,12 +54,12 @@ const About = () => {
                 </Link>
               </div>
               <div className="flex items-center justify-center xl:hidden ">
-                <div className="w-40  rounded-full mt-8 mb-4 h-1 bg-white"></div>
+                <div className="w-40  rounded-full mt-8 mb-4 h-1 bg-"></div>
               </div>
             </div>
-            <div className="mt-8 max-w-4xl md:max-w-xl md:text-base sm:text-xs">
-              <h3 className="text-xl ">My Skills</h3>
-              <div className="flex justify-center text-center flex-wrap m-4 p-4 gap-6 container">
+            <div className="">
+              <h3 className="about__content-title ">My Skills</h3>
+              <div className="skills">
                 {skills.map((e, i) => (
                   <ListOfSkills skills={e.skill} key={i} />
                 ))}
