@@ -6,26 +6,28 @@ const Header = () => {
   return (
     <div
       id="home"
-      className="w-full h-screen sm:h-32 bg-center bg-cover bg-bg_image home_hero bg-no-repeat relative"
+      className=" home-hero bg-center bg-cover bg-bg_image bg-no-repeat "
     >
-      <div className="darken-background">
+      <div>
         <div className="flex flex-col justify-center items-center welcome-section h-screen w-full z-50">
           <article className="">
             <div>
-              <h1 className="text-6xl text-white header_primary">
+              <h1 className=" text-white heading-primary ">
                 HELLO, MY NAME IS SHEU AHMAD{" "}
               </h1>
-              <p className="mt-6">I am A full-stack developer</p>
+              <p className="text-primary">I am A full-stack developer</p>
             </div>
-            <Link
-              to="#projects"
-              smooth
-              className="items-center justify-center flex mt-4"
-            >
-              <button className="font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 bg-green-900 text-white">
-                Projects
-              </button>
-            </Link>
+            <div>
+              <Link
+                to="#projects"
+                smooth
+                className="items-center justify-center flex mt-4"
+              >
+                <button className="btn btn--bg bg-green-800 text-white">
+                  Projects
+                </button>
+              </Link>
+            </div>
           </article>
         </div>
       </div>

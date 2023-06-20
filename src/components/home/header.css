@@ -1,11 +1,3 @@
-.welcome-section p {
-  font-size: 2.5rem;
-  font-weight: 200;
-  font-style: italic;
-  color: #be3144;
-  text-align: center;
-}
-
 .header_primary {
   letter-spacing: 3px;
   text-align: center;
@@ -17,15 +9,59 @@
   }
 }
 
-.home_hero {
+.home-hero {
+  color: #fff;
+
+  background-position: center;
   height: 100vh;
   min-height: 80rem;
   max-height: 120rem;
+  position: relative;
 }
-
 @media only screen and (max-width: 37.5em) {
-  .home_hero {
+  .home-hero {
     height: unset;
     min-height: unset;
   }
+}
+.heading-primary {
+  font-size: 6rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}
+@media only screen and (max-width: 37.5em) {
+  .heading-primary {
+    font-size: 4.5rem;
+  }
+}
+.text-primary {
+  color: #fff;
+  font-size: 2.2rem;
+  text-align: center;
+  width: 100%;
+  line-height: 1.6;
+}
+@media only screen and (max-width: 37.5em) {
+  .text-primary {
+    font-size: 2rem;
+  }
+}
+.btn {
+  background: #fff;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: inline-block;
+  font-weight: 700;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s;
+}
+.btn:hover {
+  transform: translateY(-3px);
+}
+.btn--bg {
+  padding: 1.5rem 8rem;
+  font-size: 2rem;
 }
