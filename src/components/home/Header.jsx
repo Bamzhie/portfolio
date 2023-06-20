@@ -10,7 +10,7 @@ const Header = () => {
     >
       <div>
         <div className="flex flex-col justify-center items-center welcome-section h-screen w-full z-50">
-          <section className="home-hero__content">
+          <section className="home-hero__content flex flex-col text-center items-center">
             <div>
               <h1 className=" text-white heading-primary ">
                 HELLO, MY NAME IS SHEU AHMAD{" "}
