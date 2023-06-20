@@ -13,12 +13,12 @@ const ListOfSkills = ({ skills }) => {
 
 const About = () => {
   return (
-    <div
-      id="about"
-      className="h-screen about_bg text-center justify-center flex flex-col text-white"
-    >
-      <div className="p-2">
-        <div className="text-white text-2xl">
+    <div>
+      <div
+        id="about"
+        className="h-screen about_bg text-center justify-center flex flex-col main-container"
+      >
+        <div className="text-2xl mt-8">
           <h1>ABOUT ME</h1>
         </div>
         <div className="flex items-center justify-center">
