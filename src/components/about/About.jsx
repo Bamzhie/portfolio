@@ -18,11 +18,11 @@ const About = () => {
         id="about"
         className="about_bg text-center justify-center flex flex-col main-container pl-4"
       >
-        <div className="">
+        <div className="xs:text-left">
           <div className="text-2xl mt-8">
-            <h1>ABOUT ME</h1>
+            <h1 className="about__content-title">ABOUT ME</h1>
           </div>
-          <div className="flex items-center justify-center">
+          <div className="flex items-center justify-center xs:justify-start">
             <div className="w-10 rounded-full mt-6 mb-4 h-1 bg-black"></div>
           </div>
           <p>
@@ -35,7 +35,7 @@ const About = () => {
         <div className=" mt-24">
           <div className="flex xs:flex-col 56:flex-row xxxl:flex-col md:gap-10 64:gap-40 mb-8">
             <div className="grid justify-center max-w-md md:text-left">
-              <h1 className="about__content-title md:text-left sm:text-left xl:text-left">
+              <h1 className="about__content-title md:text-left xs:text-left xl:text-left">
                 Get to know me!
               </h1>
               <p className="text-left">
@@ -58,7 +58,7 @@ const About = () => {
             <div className="flex items-center justify-center xl:hidden ">
               <div className="w-40  rounded-full mt-8 mb-4 h-1 bg-"></div>
             </div>
-            <div className="md:text-left sm:text-left xl:text-left">
+            <div className="md:text-left xs:text-left xl:text-left">
               <h3 className="about__content-title ">My Skills</h3>
               <div className="skills max-w-sm">
                 {skills.map((e, i) => (
