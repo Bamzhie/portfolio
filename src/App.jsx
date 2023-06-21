@@ -11,7 +11,7 @@ import {
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="w-full">
+      <div className="">
         <Navbar />
         <Header />
         <About />

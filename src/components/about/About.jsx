@@ -16,9 +16,9 @@ const About = () => {
     <div>
       <div
         id="about"
-        className="about_bg text-center justify-center flex flex-col main-container"
+        className="about_bg text-center justify-center flex flex-col main-container pl-4"
       >
-        <div>
+        <div className="">
           <div className="text-2xl mt-8">
             <h1>ABOUT ME</h1>
           </div>
@@ -32,10 +32,12 @@ const About = () => {
           </p>
         </div>
 
-        <div className="mt-24">
-          <div className="flex xs:flex-col 56:flex-row xxxl:flex-col gap-10 mb-8">
+        <div className=" mt-24">
+          <div className="flex xs:flex-col 56:flex-row xxxl:flex-col md:gap-10 64:gap-40 mb-8">
             <div className="grid justify-center max-w-md md:text-left">
-              <h1 className="about__content-title">Get to know me!</h1>
+              <h1 className="about__content-title md:text-left sm:text-left xl:text-left">
+                Get to know me!
+              </h1>
               <p className="text-left">
                 Hey! it&#39;s Ahmad Sheu and i&#39;m a Full-stack Developer
                 located in Ilorin, Nigeria. I&#39;ve built many stunning looking
@@ -56,9 +58,9 @@ const About = () => {
             <div className="flex items-center justify-center xl:hidden ">
               <div className="w-40  rounded-full mt-8 mb-4 h-1 bg-"></div>
             </div>
-            <div className="md:text-left">
+            <div className="md:text-left sm:text-left xl:text-left">
               <h3 className="about__content-title ">My Skills</h3>
-              <div className="skills max-w-md">
+              <div className="skills max-w-sm">
                 {skills.map((e, i) => (
                   <ListOfSkills skills={e.skill} key={i} />
                 ))}
