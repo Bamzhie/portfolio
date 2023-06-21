@@ -14,6 +14,7 @@ export default {
       64: "64rem",
       72: "72rem",
       80: "80rem",
+      160: "160rem",
     },
     extend: {
       backgroundImage: (theme) => ({
