@@ -31,21 +31,25 @@ const ListOfProjects = ({ photo, text, link }) => {
 
 const Project = () => {
   return (
-    <div className="project_bg h-screen about_bg justify-center flex flex-col text-white">
-      <div id="projects" className="pl-2 flex flex-col ">
-        <h3 className="text-center p-4 text-5xl text-white">Projects</h3>
-        <div className="flex items-center justify-center">
-          <div className="w-10 rounded-full mt-6 mb-4 h-1 bg-white"></div>
-        </div>
-        <div className="sm:container">
-          {projects.map((e, i) => (
-            <ListOfProjects
-              link={e.link}
-              photo={e.photo}
-              text={e.text}
-              key={i}
-            />
-          ))}
+    <div id="projects">
+      <div className="project_bg about_bg justify-center flex flex-col text-white">
+        <div className="pl-2 flex flex-col ">
+          <h3 className="text-center p-4 text-5xl text-white">Projects</h3>
+          <div className="flex items-center justify-center">
+            <div className="w-10 rounded-full mt-6 mb-4 h-1 bg-white"></div>
+          </div>
+          <div className="sm:container">
+            <div>
+              {projects.map((e, i) => (
+                <ListOfProjects
+                  link={e.link}
+                  photo={e.photo}
+                  text={e.text}
+                  key={i}
+                />
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </div>
