@@ -13,7 +13,7 @@ const ListOfSkills = ({ skills }) => {
 
 const About = () => {
   return (
-    <div>
+    <div className="dark:text-white">
       <div
         id="about"
         className="about_bg text-center justify-center flex flex-col main-container pl-4"
@@ -23,7 +23,7 @@ const About = () => {
             <h1 className="about__content-title">ABOUT ME</h1>
           </div>
           <div className="flex items-center justify-center xs:justify-start">
-            <div className="w-10 rounded-full mt-6 mb-4 h-1 bg-black"></div>
+            <div className="w-10 rounded-full mt-6 mb-4 h-1 bg-black dark:bg-white"></div>
           </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci

@@ -7,12 +7,14 @@ import {
   About,
   Footer,
 } from "./components/Components";
+import DarkModeToggle from "../DarkMode";
 
 const App = () => {
   return (
     <BrowserRouter>
       <div className="">
         <Navbar />
+        <DarkModeToggle />
         <Header />
         <About />
         <Projects />

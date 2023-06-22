@@ -3,7 +3,10 @@ import "./contact.css";
 
 const Contact = () => {
   return (
-    <div id="contact" className="w-full h-auto bg-green-700 p-4">
+    <div
+      id="contact"
+      className="w-full h-auto dark:bg-black dark:text-white bg-green-700 p-4"
+    >
       <div>
         <div className="flex items-center justify-center flex-col">
           <h1>CONTACT</h1>
@@ -15,15 +18,15 @@ const Contact = () => {
             molestias.
           </p>
         </div>
-        <div className="contact__form-container ">
-          <div className="contact__form-field">
-            <label htmlFor="name" className="contact__form-label">
+        <div className="contact__form-container dark:bg-black ">
+          <div className="contact__form-field ">
+            <label htmlFor="name" className="contact__form-label ">
               Name
             </label>
             <input
               type="text"
               placeholder="Enter Your Name"
-              className="contact__form-input"
+              className="contact__form-input dark:bg-slate-600"
             />
           </div>
           <div className="contact__form-field">
@@ -33,7 +36,7 @@ const Contact = () => {
             <input
               type="email"
               placeholder="Enter Your Email"
-              className="contact__form-input"
+              className="contact__form-input dark:bg-slate-600"
             />
           </div>
           <div className="contact__form-field">
@@ -43,7 +46,7 @@ const Contact = () => {
             <textarea
               name="message"
               id="message"
-              className="contact__form-input"
+              className="contact__form-input dark:bg-slate-600"
               cols="30"
               rows="10"
             ></textarea>

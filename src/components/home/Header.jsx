@@ -6,13 +6,13 @@ const Header = () => {
   return (
     <div
       id="home"
-      className=" home-hero bg-center bg-cover bg-green-950 bg-no-repeat max-h-"
+      className=" home-hero bg-center bg-[#CCCC99] bg-no-repeat max-h- dark:bg-black dark:text-white"
     >
       <div>
         <div className="flex flex-col justify-center items-center welcome-section h-screen w-full z-50">
           <section className="home-hero__content flex flex-col text-center items-center">
             <div>
-              <h1 className=" text-white heading-primary ">
+              <h1 className=" heading-primary ">
                 HELLO, MY NAME IS SHEU AHMAD{" "}
               </h1>
               <p className="text-primary">A full-stack developer</p>

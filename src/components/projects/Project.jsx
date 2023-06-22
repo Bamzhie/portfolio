@@ -38,7 +38,7 @@ const ListOfProjects = ({ photo, text, link }) => {
 
 const Project = () => {
   return (
-    <div id="projects">
+    <div id="projects" className="dark:bg-black bg-green-900 dark:text-white">
       <div className="project_bg about_bg justify-center flex flex-col text-white">
         <div className="pl-2 flex flex-col ">
           <h3 className="text-center p-4 text-5xl text-white">Projects</h3>

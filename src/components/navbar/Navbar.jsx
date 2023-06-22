@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import "./navbar.css";
+import DarkMode from "../../../DarkMode";
 
 export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
@@ -51,6 +52,8 @@ export default function NavBar() {
             </div>
           </div>
         </div>
+        <DarkMode />
+
         <div>
           <div
             className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
