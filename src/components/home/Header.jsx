@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div
       id="home"
-      className=" home-hero bg-center bg-cover bg-green-950 bg-no-repeat max-h-none"
+      className=" home-hero bg-center bg-cover bg-green-950 bg-no-repeat max-h-"
     >
       <div>
         <div className="flex flex-col justify-center items-center welcome-section h-screen w-full z-50">
@@ -15,11 +15,13 @@ const Header = () => {
               <h1 className=" text-white heading-primary ">
                 HELLO, MY NAME IS SHEU AHMAD{" "}
               </h1>
-              <p className="text-primary">I am A full-stack developer</p>
+              <p className="text-primary">A full-stack developer</p>
             </div>
             <div className="home-hero__cta">
               <Link to="#projects" smooth>
-                <a className="btn btn--bg bg-green-800 text-white">Projects</a>
+                <a className="btn btn--bg px-5 py-2.5 bg-green-800 text-white">
+                  Projects
+                </a>
               </Link>
             </div>
           </section>

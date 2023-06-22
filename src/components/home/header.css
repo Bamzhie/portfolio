@@ -37,22 +37,20 @@
   }
 }
 .btn {
-  background: #fff;
-  color: #333;
   text-transform: uppercase;
-  letter-spacing: 1.2px;
+  letter-spacing: 0.75px;
   display: inline-block;
-  font-weight: 400;
-  border-radius: 5px;
+
+  border-radius: 10px;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
   transition: transform 0.3s;
 }
 .btn:hover {
-  transform: translateY(-3px);
+  transform: translateY(3px);
 }
 .btn--bg {
-  padding: 1rem 4rem;
-  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
 }
 .home-hero__content {
   position: absolute;

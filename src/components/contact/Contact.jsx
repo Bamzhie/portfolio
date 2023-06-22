@@ -10,7 +10,7 @@ const Contact = () => {
           <div className="flex items-center justify-center">
             <div className="w-10 rounded-full mt-6 mb-4 h-1 bg-white"></div>
           </div>
-          <p>
+          <p className="text-white mt-4 text-lg">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error,
             molestias.
           </p>
@@ -49,7 +49,7 @@ const Contact = () => {
             ></textarea>
           </div>
           <div>
-            <button className="contact__btn bg-blue-500 rounded-md ">
+            <button className="contact__btn text-white font-bold bg-blue-500 rounded-md ">
               SUBMIT
             </button>
           </div>
