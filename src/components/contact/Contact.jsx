@@ -5,15 +5,15 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="w-full h-auto dark:bg-black dark:text-white bg-green-700 p-4"
+      className="bg-[#CCCC99] w-full h-auto dark:bg-black dark:text-white p-4"
     >
       <div>
         <div className="flex items-center justify-center flex-col">
           <h1>CONTACT</h1>
           <div className="flex items-center justify-center">
-            <div className="w-10 rounded-full mt-6 mb-4 h-1 bg-white"></div>
+            <div className="w-10 rounded-full mt-6 mb-4 h-1 bg-black"></div>
           </div>
-          <p className="text-white mt-4 text-lg">
+          <p className=" mt-4 text-lg">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error,
             molestias.
           </p>

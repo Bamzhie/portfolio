@@ -1,18 +1,18 @@
 // DarkModeToggle.js
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 
 const DarkModeToggle = () => {
   const [isDarkMode, setIsDarkMode] = useState(
-    localStorage.getItem('isDarkMode') === 'true'
+    localStorage.getItem("isDarkMode") === "true"
   );
 
   useEffect(() => {
     if (isDarkMode) {
-      document.documentElement.classList.add('dark');
-      localStorage.setItem('isDarkMode', 'true');
+      document.documentElement.classList.add("dark");
+      localStorage.setItem("isDarkMode", "true");
     } else {
-      document.documentElement.classList.remove('dark');
-      localStorage.setItem('isDarkMode', 'false');
+      document.documentElement.classList.remove("dark");
+      localStorage.setItem("isDarkMode", "false");
     }
   }, [isDarkMode]);
 
@@ -21,8 +21,8 @@ const DarkModeToggle = () => {
   };
 
   return (
-    <button onClick={handleDarkModeToggle}>
-      {isDarkMode ? 'Light Mode' : 'Dark Mode'}
+    <button onClick={handleDarkModeToggle} className="text-white">
+      {isDarkMode ? "Light Mode" : "Dark Mode"}
     </button>
   );
 };

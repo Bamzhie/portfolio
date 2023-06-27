@@ -11,7 +11,7 @@ const ListOfProjects = ({ photo, text, link }) => {
             src={photo}
             onClick={() => window.open(link, "_blank")}
             alt="projects"
-            className="rounded-xl w-40 h-40 64:w-96 64:h-96 "
+            className="rounded-xl w-40 h-35 64:w-96 64:h-96 "
           />
         </div>
 
@@ -38,12 +38,15 @@ const ListOfProjects = ({ photo, text, link }) => {
 
 const Project = () => {
   return (
-    <div id="projects" className="dark:bg-black bg-green-900 dark:text-white">
-      <div className="project_bg about_bg justify-center flex flex-col text-white">
-        <div className="pl-2 flex flex-col ">
-          <h3 className="text-center p-4 text-5xl text-white">Projects</h3>
+    <div
+      id="projects"
+      className="bg-[#CCCC99] dark:bg-black dark:text-white  flex flex-col main-container px-8"
+    >
+      <div className="project_bg about_bg justify-center flex flex-col">
+        <div className="pl-2 flex flex-col project-container">
+          <h3 className="text-center p-4 text-5xl">Projects</h3>
           <div className="flex items-center justify-center">
-            <div className="w-10 rounded-full mt-6 mb-4 h-1 bg-white"></div>
+            <div className="w-10 rounded-full mt-6 mb-4 h-1 bg-black"></div>
           </div>
           <div className="">
             <div className="">

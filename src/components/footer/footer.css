@@ -4,3 +4,17 @@
   align-items: center;
   margin: 0 20px;
 }
+/* .footer-container {
+  margin-top: 6rem;
+
+  max-width: 80rem;
+  text-align: left;
+  width: 95%;
+  border-radius: 5px;
+  margin: auto auto 0 auto;
+}
+@media only screen and (max-width: 37.5em) {
+  .contact__form-container {
+    padding: 3rem;
+  }
+} */

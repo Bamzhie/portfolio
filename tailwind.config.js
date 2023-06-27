@@ -8,6 +8,9 @@ export default {
         cream: "#C6C696",
       },
     },
+    fontFamily: {
+      poppins: ["Poppins"],
+    },
     screens: {
       xs: "20rem",
       sm: "24rem",

@@ -12,7 +12,7 @@ import DarkModeToggle from "../DarkMode";
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="">
+      <div className="font-poppins">
         <Navbar />
         <DarkModeToggle />
         <Header />
