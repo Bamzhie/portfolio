@@ -14,7 +14,7 @@ const App = () => {
     <BrowserRouter>
       <div className="font-poppins">
         <Navbar />
-        <DarkModeToggle />
+        {/* <DarkModeToggle /> */}
         <Header />
         <About />
         <Projects />

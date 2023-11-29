@@ -1,5 +1,8 @@
 // DarkModeToggle.js
 import React, { useEffect, useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMoon } from "@fortawesome/free-regular-svg-icons";
+import { faSun } from "@fortawesome/free-regular-svg-icons";
 
 const DarkModeToggle = () => {
   const [isDarkMode, setIsDarkMode] = useState(
@@ -22,7 +25,11 @@ const DarkModeToggle = () => {
 
   return (
     <button onClick={handleDarkModeToggle} className="text-white">
-      {isDarkMode ? "Light Mode" : "Dark Mode"}
+      {isDarkMode ? (
+        <FontAwesomeIcon icon={faMoon} />
+      ) : (
+        <FontAwesomeIcon icon={faSun} />
+      )}
     </button>
   );
 };
