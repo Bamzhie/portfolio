@@ -5,7 +5,7 @@ import { skills } from "../../data";
 
 const ListOfSkills = ({ skills }) => {
   return (
-    <div className="bg-slate-500 p-2 m-1 rounded-md shadow-lg">
+    <div className="p-2 m-1 bg-slate-500 rounded-md shadow-lg">
       <a className="text-white text-xl">{skills}</a>
     </div>
   );
@@ -15,37 +15,16 @@ const About = () => {
   return (
     <div className="dark:bg-black p-16 bg-[#CCCC99]">
       <div id="about" className="dark:text-white ">
-        <div className=" text-center justify-center flex flex-col w-full pl-4 about__form-container">
-          {/* <div className="xs:text-left">
-            <div className="text-2xl">
-              <h1 className="about__content-title">ABOUT ME</h1>
-            </div>
-            <div className="flex items-center justify-center xs:justify-start">
-              <div className="w-10 rounded-full mt-6 mb-4 h-1 bg-black dark:bg-white"></div>
-            </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-              eligendi repellendus iure sed deserunt officiis doloremque dolorem
-              ullam dolor ipsum!
-            </p>
-          </div> */}
-
+        <div className="text-center justify-center flex flex-col w-full pl-4 about__form-container">
           <div className=" mt-24">
-            <div className="flex xs:flex-col 56:flex-row xxxl:flex-col md:gap-10 64:gap-40 mb-8">
-              <div className="grid justify-center max-w-md md:text-left">
-                <h1 className="about__content-title md:text-left xs:text-left xl:text-left">
+            <div className="64:flex 64:flex-row 64:gap-14">
+              <div className="grid justify-center 64:max-w-md md:text-center">
+                <h1 className="about__content-title  md:text-center xs:text-left xl:text-left">
+                  {/* text-center p-4 text-5xl */}
                   Get to know me!
                 </h1>
-                {/* <p className="text-left">
-                  Hey! it&#39;s Ahmad Sheu and i&#39;m a Full-stack Developer
-                  located in Ilorin, Nigeria. I&#39;ve built many stunning
-                  looking and fully functional apps and websites. I&#39;m a tech
-                  junkie and a curious being, i strive for coming closest to
-                  perfection. I&#39;m always learning new stuff and satisfying
-                  my many curiosities on the way. <br />
-                  Feel free to contact me here
-                </p> */}
-                <p>
+
+                <p className="text-left">
                   Hello, I&#39;m Ahmad Sheu, a passionate Full-stack Developer
                   based in Ilorin, Nigeria. With a proven track record of
                   creating stunning and fully functional apps and websites, I
@@ -53,7 +32,7 @@ const About = () => {
                   every project.
                 </p>
 
-                <p>
+                <p className="text-left">
                   As a dedicated tech enthusiast, I am driven by the pursuit of
                   perfection. I thrive in the ever-evolving world of technology,
                   consistently learning and adapting to stay at the forefront of
@@ -62,13 +41,13 @@ const About = () => {
                   skill set.
                 </p>
 
-                <p>
+                <p className="text-left">
                   I take pride in crafting solutions that not only meet but
                   exceed expectations. From conceptualization to execution, I
                   ensure a seamless and innovative development process.
                 </p>
 
-                <p>
+                <p className="text-left">
                   If you are seeking a versatile and ambitious Full-stack
                   Developer who is committed to delivering excellence, I would
                   love to connect. Feel free to reach out to me , and let&#39;s
@@ -88,7 +67,7 @@ const About = () => {
               </div>
               <div className="md:text-left xs:text-left xl:text-left">
                 <h3 className="about__content-title ">My Skills</h3>
-                <div className="lg:grid lg:grid-rows-4 lg:grid-flow-col lg:gap-4 text-center items-center sm:flex flex-col">
+                <div className="lg:flex lg:flex-wrap lg:gap-4 text-center items-center  sm:grid grid-cols-2 gap-4 ">
                   {skills.map((e, i) => (
                     <ListOfSkills skills={e.skill} key={i} />
                   ))}

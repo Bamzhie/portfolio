@@ -14,18 +14,26 @@ export const projects = [
   {
     photo: project2,
     text: "Movie-verse",
+    link: "https://moverse.vercel.app/",
+    about: "",
   },
   {
     photo: project3,
     text: "Threads-clone",
+    link: "https://thread-lac.vercel.app/",
+    about: "",
   },
   {
     photo: project4,
     text: "Star wars info",
+    link: "https://star-wars-info-bice.vercel.app/",
+    about: "",
   },
   {
     photo: project5,
     text: "Flashy-App",
+    link: "https://flashy-sand.vercel.app/",
+    about: "",
   },
 ];
 

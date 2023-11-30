@@ -6,6 +6,9 @@ export default {
     extend: {
       colors: {
         cream: "#C6C696",
+        backgroundImage: (theme) => ({
+          bg_image: "url('/public/images/bg.png')",
+        }),
       },
     },
     fontFamily: {
@@ -24,11 +27,6 @@ export default {
       72: "72rem",
       80: "80rem",
       160: "160rem",
-    },
-    extend: {
-      backgroundImage: (theme) => ({
-        bg_image: "url('/public/images/bg.png')",
-      }),
     },
   },
 

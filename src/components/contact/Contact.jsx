@@ -9,14 +9,11 @@ const Contact = () => {
     >
       <div>
         <div className="flex items-center justify-center flex-col">
-          <h1>CONTACT</h1>
+          <h1 className="text-4xl font-bold">CONTACT</h1>
           <div className="flex items-center justify-center">
             <div className="w-10 rounded-full mt-6 mb-4 h-1 bg-black"></div>
           </div>
-          <p className=" mt-4 text-lg">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error,
-            molestias.
-          </p>
+          <p className=" mt-4 text-lg">SHEU AHMAD BAMIDELE</p>
         </div>
         <div className="contact__form-container dark:bg-black ">
           <div className="contact__form-field ">

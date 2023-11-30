@@ -1,6 +1,7 @@
 import "./project.css";
 import { projects } from "../../data";
 import ListOfProjects from "../ListOfProjects";
+import { Link } from "react-router-dom";
 
 const Project = () => {
   return (
@@ -15,14 +16,13 @@ const Project = () => {
             <div className="w-10 rounded-full mt-6 mb-4 h-1 bg-black"></div>
           </div>
           <div className="">
-            <div className="">
+            <div className="lg:grid lg:grid-cols-2">
               {projects.map((e, i) => (
                 <ListOfProjects
                   link={e.link}
                   photo={e.photo}
                   text={e.text}
                   key={i}
-                  about={e.about}
                 />
               ))}
             </div>

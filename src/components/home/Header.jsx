@@ -28,20 +28,17 @@ const Header = () => {
   };
 
   return (
-    <div
-      id="home"
-      className=" home-hero bg-[#CCCC99] text-slate-800  dark:bg-black dark:text-white"
-    >
-      <div className="flex flex-col justify-center items-center h-screen w-auto z-50">
-        <section className="home-hero__content">
-          <div className="flex items-center justify-center xxl:flex-row xs:flex-col  p-10 gap-10">
+    <div id="home" className="  dark:bg-black p-16 bg-[#CCCC99]">
+      <div className="dark:text-white">
+        <section className="text-center justify-center flex flex-col w-full pl-4">
+          <div className="mt-14 flex items-center justify-center xxl:flex-row xs:flex-col gap-10">
             <div className="">
               <div className="pb-4">
                 <motion.h1
                   variants={containerVariants}
                   initial="hidden"
                   animate="visible"
-                  className="text-start xs:text-center font-bold heading-primary"
+                  className="text-4xl font-semibold"
                 >
                   SHEU AHMAD{" "}
                 </motion.h1>
@@ -50,7 +47,7 @@ const Header = () => {
               {showElement ? (
                 <div>
                   <motion.p
-                    className="text-primary xxl:text-start xs:text-center"
+                    className="text-2xl"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ duration: 2 }}
@@ -58,14 +55,16 @@ const Header = () => {
                     A full stack developer
                   </motion.p>
                   <Link to="#projects" className="xs:hidden xxl:inline" smooth>
-                    <motion.a
-                      className="btn btn--bg mt-2 bg-green-800 text-white"
-                      initial={{ opacity: 0 }}
-                      animate={{ opacity: 1 }}
-                      transition={{ delay: 2, duration: 1.5 }}
-                    >
-                      Projects
-                    </motion.a>
+                    <div className="mt-5">
+                      <motion.a
+                        className="font-medium rounded-lg text-sm px-5 py-2.5 bg-green-900 text-white"
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        transition={{ delay: 2, duration: 1.5 }}
+                      >
+                        Projects
+                      </motion.a>
+                    </div>
                   </Link>
 
                   {""}
@@ -74,7 +73,7 @@ const Header = () => {
                 <div></div>
               )}
             </div>
-            <div className="rounded-full">
+            <div className="flex flex-col justify-center items-center">
               <motion.img
                 src={img}
                 alt=""
