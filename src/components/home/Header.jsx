@@ -28,10 +28,10 @@ const Header = () => {
   };
 
   return (
-    <div id="home" className="  dark:bg-black p-16 bg-[#CCCC99]">
+    <div id="home" className=" dark:bg-black p-16 bg-[#CCCC99]">
       <div className="dark:text-white">
         <section className="text-center justify-center flex flex-col w-full pl-4">
-          <div className="mt-14 flex items-center justify-center xxl:flex-row xs:flex-col gap-10">
+          <div className="mt-24 flex items-center justify-center xxl:flex-row xs:flex-col gap-10">
             <div className="">
               <div className="pb-4">
                 <motion.h1
