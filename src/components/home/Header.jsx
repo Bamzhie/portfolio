@@ -55,7 +55,7 @@ const Header = () => {
                     A full stack developer
                   </motion.p>
                   <Link to="#projects" className="xs:hidden xxl:inline" smooth>
-                    <div className="mt-5">
+                    <div className="mt-5 hover:translate-y-2 transition-transform duration-300 ease-out">
                       <motion.a
                         className="font-medium rounded-lg text-sm px-5 py-2.5 bg-green-900 text-white"
                         initial={{ opacity: 0 }}

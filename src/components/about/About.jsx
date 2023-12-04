@@ -54,7 +54,7 @@ const About = () => {
                   discuss how I can contribute to your team&#39;s success.
                 </p>
 
-                <div className="items-start  justify-start flex mt-4">
+                <div className="items-start  justify-start flex mt-4 hover:translate-y-2 transition-transform duration-300 ease-out">
                   <Link to="#contact" smooth>
                     <button className="font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 bg-green-900 text-white">
                       Contact

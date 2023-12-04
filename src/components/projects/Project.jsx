@@ -1,7 +1,6 @@
 import "./project.css";
 import { projects } from "../../data";
 import ListOfProjects from "../ListOfProjects";
-import { Link } from "react-router-dom";
 
 const Project = () => {
   return (
@@ -23,6 +22,7 @@ const Project = () => {
                   photo={e.photo}
                   text={e.text}
                   key={i}
+                  code={e.code}
                 />
               ))}
             </div>

@@ -10,30 +10,35 @@ export const projects = [
     text: "Prompt Generator",
     link: "https://promptopia-app-tau.vercel.app/",
     about: "A prompt generator app for developers",
+    code: "https://github.com/Bamzhie/Promptopia-app",
   },
   {
     photo: project2,
     text: "Movie-verse",
     link: "https://moverse.vercel.app/",
     about: "",
+    code: "https://github.com/Bamzhie/moverse",
   },
   {
     photo: project3,
     text: "Threads-clone",
     link: "https://thread-lac.vercel.app/",
     about: "",
+    code: "https://github.com/Bamzhie/thread",
   },
   {
     photo: project4,
     text: "Star wars info",
     link: "https://star-wars-info-bice.vercel.app/",
     about: "",
+    code: "https://github.com/Bamzhie/star-wars-info",
   },
   {
     photo: project5,
     text: "Flashy-App",
     link: "https://flashy-sand.vercel.app/",
     about: "",
+    code: "https://github.com/Bamzhie/flashy",
   },
 ];
 
