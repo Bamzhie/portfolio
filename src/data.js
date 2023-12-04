@@ -54,12 +54,12 @@ export const contacts = [
 
   {
     site: "Github",
-    link: "http://github.com",
+    link: "https://github.com/Bamzhie",
   },
 
   {
     site: "LinkedIn",
-    link: "http://www.linkedin",
+    link: "https://www.linkedin.com/in/sheu-ahmad/",
   },
 ];
 
