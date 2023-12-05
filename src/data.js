@@ -42,6 +42,18 @@ export const projects = [
   },
 ];
 
+export const headerLinks = [
+  {
+    site: "Github",
+    link: "https://github.com/Bamzhie",
+  },
+
+  {
+    site: "LinkedIn",
+    link: "https://www.linkedin.com/in/sheu-ahmad/",
+  },
+];
+
 export const contacts = [
   {
     site: "Facebook",

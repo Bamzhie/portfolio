@@ -3,6 +3,8 @@ import "./header.css";
 import { HashLink as Link } from "react-router-hash-link";
 import { motion } from "framer-motion";
 import img from "../../assets/images/ptf.jpg";
+import { headerLinks } from "../../data";
+import { SocialIcon } from "react-social-icons";
 
 const Header = () => {
   const [showElement, setShowElement] = useState(false);
@@ -87,6 +89,31 @@ const Header = () => {
             {/*  */}
           </div>
         </section>
+      </div>
+      <div className="flex gap-3 justify-center mt-4 mr-[200px]">
+        {headerLinks.map((e, i) => (
+          <Link
+            key={i}
+            to={e.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            smooth
+            className=""
+          >
+            <div className="mt-5 hover:translate-y-1 transition-transform duration-300 ease-out ">
+              <a className="font-medium rounded-lg text-sm px-5 py-2.5 bg-green-900 text-white flex gap-2">
+                {e.site}
+
+                <SocialIcon
+                  url={e.link}
+                  fgColor="#fff"
+                  bgColor="#000"
+                  style={{ height: 25, width: 25 }}
+                />
+              </a>
+            </div>
+          </Link>
+        ))}
       </div>
     </div>
   );
