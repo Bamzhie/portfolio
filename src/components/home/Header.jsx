@@ -90,7 +90,7 @@ const Header = () => {
           </div>
         </section>
       </div>
-      <div className="flex gap-3 justify-center mt-4 mr-[200px]">
+      <div className="flex gap-3 justify-center mt-4 56:mr-[200px]">
         {headerLinks.map((e, i) => (
           <Link
             key={i}
