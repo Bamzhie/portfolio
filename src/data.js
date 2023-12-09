@@ -6,13 +6,6 @@ import project5 from "./assets/project5.png";
 
 export const projects = [
   {
-    photo: project1,
-    text: "Prompt Generator",
-    link: "https://promptopia-app-tau.vercel.app/",
-    about: "A prompt generator app for developers",
-    code: "https://github.com/Bamzhie/Promptopia-app",
-  },
-  {
     photo: project2,
     text: "Movie-verse",
     link: "https://moverse.vercel.app/",
@@ -27,6 +20,13 @@ export const projects = [
     code: "https://github.com/Bamzhie/thread",
   },
   {
+    photo: project5,
+    text: "Flashy-App",
+    link: "https://flashy-sand.vercel.app/",
+    about: "",
+    code: "https://github.com/Bamzhie/flashy",
+  },
+  {
     photo: project4,
     text: "Star wars info",
     link: "https://star-wars-info-bice.vercel.app/",
@@ -34,11 +34,11 @@ export const projects = [
     code: "https://github.com/Bamzhie/star-wars-info",
   },
   {
-    photo: project5,
-    text: "Flashy-App",
-    link: "https://flashy-sand.vercel.app/",
-    about: "",
-    code: "https://github.com/Bamzhie/flashy",
+    photo: project1,
+    text: "Prompt Generator",
+    link: "https://promptopia-app-tau.vercel.app/",
+    about: "A prompt generator app for developers",
+    code: "https://github.com/Bamzhie/Promptopia-app",
   },
 ];
 

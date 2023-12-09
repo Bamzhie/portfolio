@@ -16,7 +16,7 @@ const About = () => {
     <div className="dark:bg-black p-16 bg-[#CCCC99]">
       <div id="about" className="dark:text-white ">
         <div className="text-center justify-center flex flex-col w-full pl-4 about__form-container">
-          <div className=" mt-24">
+          <div className="">
             <div className="64:flex 64:flex-row 64:gap-14">
               <div className="grid justify-center 64:max-w-md md:text-center">
                 <h1 className="about__content-title  md:text-center xs:text-left xl:text-left">
